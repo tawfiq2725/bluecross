@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+ }
+ section{
+    width: 100vw;
+    height: 100vh;
+ }
+ .home{
+    background: linear-gradient(white,rgb(17, 97, 247));
+ }
+ .service{
+    background: linear-gradient(rgb(255, 33, 100),rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .service .box{
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 40px;
+    
+ }
+ .service .box a{
+    text-decoration: none;
+ }
+ .service .box img{
+    width: 150px;
+    height: 120px;
+ }
+ .about{
+    background: linear-gradient(rgb(8, 170, 2),white);
+
+ }
+ .box-cont{
+    width:800px;
+    height:600px;
+    display: flex;
+    padding: 40px;
+ }
+ .box-cont img{
+    width: 700px;
+    height: 600px;
+ }
+
+ 
+ .contact{
+    background: linear-gradient(rgb(0, 0, 0),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ .contact .container{
+    width:300px;
+    height: 300px;
+ }
+ .copyright{
+    position: absolute;
+    bottom: 20px;
+ }
+.logo{
+    position: relative;
+    margin-left: 50px;
+  margin-top: 40px;
+
+}
+.logo img{
+    width:500px;
+    height:500px;
+  margin-top: 20px;
+}
+.nav-bar{
+    position: absolute;
+    left: 700px;
+    top: -10px;
+    padding-top: 42px;
+    
+}
+.nav-bar ul{
+    display: flex;
+    gap: 40px;
+
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.5s;
+}
+.nav-bar ul li a:hover{
+    color: black;
+}
+.nav-bar ul li a:active{
+    color: black;
+}
+.para{
+    position: absolute;
+    top: 50px;
+    width: 500px;
+    left: 700px;
+    padding-top: 50px;
+    text-align: justify;
+}
+.topbtn{
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      position: fixed;
+      border-radius: 50%;
+      bottom: 40px;
+      left: 1200px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.topbtn img{
+    color:#ffff;
+    width: 45px;
+    height: 45px;
+    left :10px;
+    position: absolute;
+}
